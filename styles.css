@@ -1,44 +1,49 @@
 /*Google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 /*============================================================================*/
-*
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
+
 /*Variables CSS
 :root {
     --header-height: ;
 }
 */
+
+
 /*Colores*/
 
-body
-{
+body {
     background: #cee9eb;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-.containerNav
-{
-    z-index: 10000;  /*always on top navbar?*/
-    height:75px;
-    width:100%;
+
+.containerNav {
+    z-index: 10000;
+    /*always on top navbar?*/
+    height: 75px;
+    width: 100%;
     max-height: 50px;
     padding: bottom 5px;
-    background:#ffffff;
+    background: #ffffff;
     position: fixed;
-    top:0px;
-    left:0px;
+    top: 0px;
+    left: 0px;
     float: left;
 }
-.container
-{
+
+.container {
     position: relative;
     width: 100%;
     max-width: 1000px;
@@ -47,33 +52,33 @@ body
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-.container .leftside
-{
+
+.container .leftside {
     position: relative;
     background: #053949;
     padding: 40px;
 }
-.profileTxt
-{
-    position: relative;   
+
+.profileTxt {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.profileTxt .imgBx
-{
+
+.profileTxt .imgBx {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
 }
-.profileTxt .imgBx img
-{
+
+.profileTxt .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -81,7 +86,10 @@ body
     height: 100%;
     object-fit: cover;
 }
-.profileTxt h2 /*DAniel Seemann*/
+
+.profileTxt h2
+/*DAniel Seemann*/
+
 {
     color: #ffffff;
     font-size: 1.5em;
@@ -91,150 +99,169 @@ body
     font: weight 600px;
     line-height: 1.4em;
 }
-.profileTxt h2 span /* cheff*/
+
+.profileTxt h2 span
+/* cheff*/
+
 {
     font-size: 0.8em;
-    font-weight: 300;   
+    font-weight: 300;
 }
+
+
 /****************************************************************/
-.infoContacto
-{
+
+.infoContacto {
     padding-top: 20px;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
-.title
-{
+
+.title {
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
     letter-spacing: 0.8px;
     margin-bottom: 25px;
 }
-.texto
-{
+
+.texto {
     color: #fff;
     text-align: justify;
 }
-.infoContacto ul
-{
-    position: relative;  
-    margin-left: 2px;  
+
+.infoContacto ul {
+    position: relative;
+    margin-left: 2px;
 }
-.infoContacto ul li
-{
+
+.infoContacto ul li {
     position: relative;
     list-style: none;
     margin: 10px;
     cursor: pointer;
 }
-.infoContacto ul li .icono
-{
+
+.infoContacto ul li .icono {
     display: inline-block;
     width: 30px;
     font-size: 18px;
     color: #307bb1;
 }
+
+ul {
+    padding-left: 0;
+}
+
+
 /**por alguna razón no me cambia el color de todos los íconos*/
+
+
 /**30 MIN DPS : ERA UN /SPAN!!! "*/
-.infoContacto.Educacion ul li span
-{
-    color:#fff;
+
+.infoContacto.Educacion ul li span {
+    color: #fff;
     font-weight: 300;
 }
+
+
 /****************************************************************/
-.infoContacto.Educacion li
-{
+
+.infoContacto.Educacion li {
     margin-bottom: 15px;
 }
-.infoContacto.Educacion h5
-{
+
+.infoContacto.Educacion h5 {
     color: #307bb1;
     font-weight: 500;
 }
-.infoContacto.Educacion h4:nth-child(2)
-{
+
+.infoContacto.Educacion h4:nth-child(2) {
     color: #fff;
     font-weight: 500;
 }
-.infoContacto.Educacion h4
-{
+
+.infoContacto.Educacion h4 {
     color: #fff;
     font-weight: 300;
 }
-.infoContacto.Educacion h3
-{
+
+.infoContacto.Educacion h3 {
     color: #ffffff;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+
 /****************************************************************/
-.infoContacto.idiomas .porcentaje
-{
+
+.infoContacto.idiomas .porcentaje {
     position: relative;
     width: 100%;
     height: 6px;
     background: #081921;
     display: block;
     margin-top: 5px;
-} 
-.infoContacto.idiomas .porcentaje div
-{
+}
+
+.infoContacto.idiomas .porcentaje div {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;  
+    background: #03a9f4;
 }
+
+
 /****************************************************************/
-.container .rightside
-{
+
+.container .rightside {
     position: relative;
     background: #fff;
     padding: 40px;
 }
-.acerca
-{
+
+.acerca {
     margin-bottom: 50px;
 }
-.acerta:last-child
-{
+
+.acerta:last-child {
     margin-bottom: 0;
 }
-.title2
-{
+
+.title2 {
     color: #083147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-p
-{
-    color: #333;    
+
+p {
+    color: #333;
 }
-.acerca .box
-{
+
+.acerca .box {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;    
+    margin: 20px 0;
 }
-.acerca .box .tiempo_empresa
-{
+
+.acerca .box .tiempo_empresa {
     min-width: 150px;
 }
-.acerca .box .tiempo_empresa h5
-{
+
+.acerca .box .tiempo_empresa h5 {
     text-transform: uppercase;
     color: grey;
     font-weight: 600;
 }
-.acerca .box .text h4
-{
+
+.acerca .box .text h4 {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
 }
-.Habilidades .box
-{
+
+.Habilidades .box {
     position: relative;
     width: 100%;
     display: grid;
@@ -242,19 +269,16 @@ p
     justify-content: center;
     align-items: center;
 }
-.Habilidades .box h4
-{
+
+.Habilidades .box h4 {
     text-transform: uppercase;
     color: grey;
     font-weight: 500;
 }
-.Habilidades .box .porcentaje
-{
+
+.Habilidades .box .porcentaje {
     position: relative;
     width: 100%;
     height: 10px;
     background: #f0f0f0;
 }
-
-
-
