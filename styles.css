@@ -11,14 +11,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*Variables CSS
-:root {
---header-height: ;
-}
-*/
-
-/*Colores*/
-
 body 
 {
     background: #cee9eb;
@@ -27,6 +19,7 @@ body
     align-items: center;
     min-height: 100vh;
 }
+/****************************************************************/
 
 .containerNav 
 {
@@ -41,6 +34,7 @@ body
     left: 0px;
     float: left;
 }
+/****************************************************************/
 
 .container 
 {
@@ -144,6 +138,7 @@ body
     margin: 10px;
     cursor: pointer;
 }
+
 .infoContacto h4
 {
     font-size: 18px;
@@ -157,22 +152,24 @@ body
     font-size: 25px;
     color: #307bb1;
 }
+/****************************************************************/
 
 ul 
 {
     padding-left: 0;
 }
+
 h4
 {
     font-size: 18px;
 }
+/****************************************************************/
 
 .infoContacto.Educacion ul li span 
 {
     color: #fff;
     font-weight: 100;
 }
-
 /****************************************************************/
 
 .infoContacto.Educacion li 
@@ -224,9 +221,7 @@ h4
     height: 100%;
     background: #03a9f4;
 }
-
 /****************************************************************/
-
 .container .rightside 
 {
     position: relative;
@@ -318,11 +313,13 @@ p
     height: 100%;
     background: #03a9f4;
 }
+
 .Intereses ul
 {
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
 .Intereses ul li 
 {
     list-style: none;
@@ -330,12 +327,13 @@ p
     font-weight: 500;
     margin: 10px 0;
 }
+
 .Intereses ul li .fa
 {   
     color: #03a9f4;
     font-size: 18px;
 }
-
+/***************************************************/
 @media (max-width: 1000px)
 {
     .container
