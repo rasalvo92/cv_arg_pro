@@ -1,5 +1,4 @@
 /*Google fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*============================================================================*/
@@ -21,18 +20,21 @@ body
 }
 /****************************************************************/
 
-.containerNav 
+.containerNav
 {
     z-index: 10000; /*always on top navbar?*/
-    height: 75px;
     width: 100%;
-    max-height: 50px;
-    padding: bottom 5px;
-    background: #ffffff;
     position: fixed;
     top: 0px;
     left: 0px;
     float: left;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    
+}
+.container-fluid
+{
 }
 /****************************************************************/
 
@@ -51,7 +53,6 @@ body
 
 .container .leftside 
 {
-    position: relative;
     background: #053949;
     padding: 40px;
 }
