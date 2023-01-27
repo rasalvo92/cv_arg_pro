@@ -109,21 +109,17 @@ body
 {
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.title 
-{
     color: #fff;
-    text-transform: uppercase;
     font-weight: 100;
-    letter-spacing: 0.8px;
-    margin-bottom: 25px;
+
 }
 
 .texto 
 {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: justify;
+    font-size: 18px;
+    
 }
 
 .infoContacto ul 
@@ -142,7 +138,7 @@ body
 
 .infoContacto h4
 {
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 100;
 }
 
@@ -245,7 +241,7 @@ h4
     color: #083147;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 p 
@@ -263,7 +259,8 @@ p
 
 .acerca .box .tiempo_empresa 
 {
-    min-width: 150px;
+    min-width: 9em;
+    margin: 2.5em 0;
 }
 
 .acerca .box .tiempo_empresa h5 
@@ -271,7 +268,7 @@ p
     text-transform: uppercase;
     color: grey;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.05em;
 }
 
 .acerca .box .texto h4 
@@ -335,10 +332,9 @@ p
     font-size: 18px;
 }
 
-.asd-footer {
+.footerx {
     font-size: 100px;
 }
-
 
 /***************************************************/
 @media (max-width: 1000px)
@@ -352,6 +348,11 @@ p
     .Intereses ul
     {
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .infoContacto 
+    {
+        text-align: center;        
     }
 }
 
@@ -374,4 +375,5 @@ p
     {
         grid-template-columns: repeat(1,1fr);
     }
+
 }
