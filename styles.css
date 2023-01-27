@@ -17,6 +17,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-style: normal;
 }
 /****************************************************************/
 
@@ -161,13 +162,13 @@ ul
 .infoContacto.Educacion ul li span 
 {
     color: #fff;
-    font-weight: 100;
+    font-weight: 300;
 }
 /****************************************************************/
 
 .infoContacto.Educacion li 
 {
-    margin-bottom: 22px;
+    margin-bottom: 15px;
 }
 
 .infoContacto.Educacion h5 
@@ -190,8 +191,8 @@ ul
 .infoContacto.Educacion h3 
 {
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /****************************************************************/
 
