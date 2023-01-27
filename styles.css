@@ -363,7 +363,7 @@ button:hover
 }
 
 /***************************************************/
-
+/*
 @media print{
     body * {
         visibility: hidden;
@@ -371,7 +371,7 @@ button:hover
     print-area * {
         visibility: visible;
     }
-}
+}/*/
 
 @media (max-width: 1000px)
 {
