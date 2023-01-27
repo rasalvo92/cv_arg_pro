@@ -34,7 +34,7 @@ body
     
 }
 .container-fluid
-{
+{    
 }
 /****************************************************************/
 
@@ -67,7 +67,7 @@ body
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profileTxt .imgBx 
+.profileTxt .img 
 {
     position: relative;
     width: 200px;
@@ -76,7 +76,7 @@ body
     overflow: hidden;
 }
 
-.profileTxt .imgBx img 
+.profileTxt .img img 
 {
     position: absolute;
     top: 0;
@@ -235,7 +235,7 @@ h4
     margin-bottom: 50px;
 }
 
-.acerta:last-child 
+.acerca:last-child 
 {
     margin-bottom: 0;
 }
@@ -274,7 +274,7 @@ p
     font-size: 18px;
 }
 
-.acerca .box .text h4 
+.acerca .box .texto h4 
 {
     text-transform: uppercase;
     color: #2a7da2;
@@ -334,6 +334,12 @@ p
     color: #03a9f4;
     font-size: 18px;
 }
+
+.asd-footer {
+    font-size: 100px;
+}
+
+
 /***************************************************/
 @media (max-width: 1000px)
 {
