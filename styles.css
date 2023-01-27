@@ -288,6 +288,7 @@ p
 {
     text-transform: uppercase;
     color: grey;
+    font-size: 1.05em;
     font-weight: 500;
 }
 
@@ -328,7 +329,7 @@ p
     font-size: 18px;
 }
 
-.footerx {
+/*.footerx {
     font-size: 100px;
 }
 
