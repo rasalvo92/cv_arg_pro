@@ -7,22 +7,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
     background: #cee9eb;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    font-style: normal;
+    max-height: 100%;
+    min-height: 100%;
 }
-
-.print-area {
-    width: 100%;
-    margin: 20px auto;
-}
-
 
 /****************************************************************/
 
@@ -43,11 +36,14 @@ body {
 /*.container-fluid
 {    
 }*/
-
+.navbar {
+    padding: 0;
+}
 
 /****************************************************************/
 
 .container {
+    font-family: 'Poppins', sans-serif;
     position: relative;
     width: 100%;
     background: #ffffff;
@@ -87,11 +83,9 @@ body {
     object-fit: cover;
 }
 
-.profileTxt h2
-/*DAniel Seemann*/
-
+.profileTxt h2 /*DAniel Seemann*/
 {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -100,9 +94,7 @@ body {
     line-height: 1.4em;
 }
 
-.profileTxt h2 span
-/* cheff*/
-
+.profileTxt h2 span /* cheff*/
 {
     font-size: 0.8em;
     font-weight: 300;
@@ -112,32 +104,32 @@ body {
 /****************************************************************/
 
 .infoContacto {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    font-weight: 100;
+    margin: 12px;
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .texto {
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .infoContacto ul {
     position: relative;
-    margin-left: 2px;
+    margin-left: 20px;
 }
 
 .infoContacto ul li {
     position: relative;
     list-style: none;
-    margin: 10px;
+    margin: 15px;
     cursor: pointer;
 }
 
 .infoContacto h4 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 100;
 }
 
@@ -159,12 +151,12 @@ ul {
 
 
 /****************************************************************/
-
-.infoContacto.Educacion ul li span {
-    color: #fff;
+/*
+.infoContacto .Educacion ul li {
+    color: rgb(19, 11, 11);
     font-weight: 300;
 }
-
+*/
 
 /****************************************************************/
 
@@ -179,11 +171,13 @@ ul {
 
 .infoContacto.Educacion h4:nth-child(2) {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .infoContacto.Educacion h4 {
-    font-weight: 100;
+    font-weight: 400;
+    color: #2a7da2;
+
 }
 
 .infoContacto.Educacion h3 {
@@ -232,8 +226,9 @@ ul {
 .title2 {
     color: #083147;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     margin-bottom: 40px;
+
 }
 
 p {
@@ -317,7 +312,7 @@ button {
     font-size: 25px;
     padding: 10px 20px;
     margin: 50px 0 50px 140px;
-    background-color: #2a7da2;
+    background-color: #1883b4;
     border: none;
     outline: none;
     color: white;
@@ -328,27 +323,27 @@ button {
 }
 
 button:hover {
-    background-color: #053949;
-    box-shadow: 0 0 30px #053949;
+    background-color: #10bcf0;
+    box-shadow: 0 0 30px #225b6d5b;
 }
 
 footer {
-    width: 100%;
-    height: 10vh;
-    background-color: #053949;
-    color: #f0f0f0;
-    bottom: 0;
+    color: #083147;
+    text-align: right;
 }
-
-
-/*.footerx {
-    font-size: 100px;
-}
-
 /***************************************************/
 
+.print-area {
+    width: 100%;
+    margin: 20px auto;
+}
 
-/*
+.print-area .header {
+    width: 100%;
+    height: 150px;
+}
+
+
 @media print{
     body * {
         visibility: hidden;
@@ -356,7 +351,7 @@ footer {
     print-area * {
         visibility: visible;
     }
-}/*/
+}
 
 @media (max-width: 1000px) {
     .container {
