@@ -1,36 +1,35 @@
 /*Google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*============================================================================*/
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body 
-{
+body {
     background: #cee9eb;
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-style: normal;
 }
 
-.print-area
-{
-    width: 80%;
+.print-area {
+    width: 100%;
     margin: 20px auto;
 }
 
+
 /****************************************************************/
 
-.containerNav
-{
-    z-index: 10000; /*always on top navbar?*/
+
+/*.containerNav {
+    z-index: 10000;
+    always on top navbar?
     width: 100%;
     position: fixed;
     top: 0px;
@@ -39,36 +38,30 @@ body
     font-size: 1.5em;
     color: black;
     font-weight: bold;
-    
 }
 
 /*.container-fluid
 {    
 }*/
 
+
 /****************************************************************/
 
-.container 
-{
+.container {
     position: relative;
     width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
     background: #ffffff;
-    margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
-.container .leftside 
-{
+.container .leftside {
     background: #053949;
     padding: 40px;
 }
 
-.profileTxt 
-{
+.profileTxt {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -77,8 +70,7 @@ body
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profileTxt .img 
-{
+.profileTxt .img {
     position: relative;
     width: 200px;
     height: 200px;
@@ -86,8 +78,7 @@ body
     overflow: hidden;
 }
 
-.profileTxt .img img 
-{
+.profileTxt .img img {
     position: absolute;
     top: 0;
     left: 0;
@@ -96,8 +87,10 @@ body
     object-fit: cover;
 }
 
-.profileTxt h2  /*DAniel Seemann*/ 
-{   
+.profileTxt h2
+/*DAniel Seemann*/
+
+{
     color: #ffffff;
     font-size: 1.5em;
     margin-top: 20px;
@@ -107,106 +100,102 @@ body
     line-height: 1.4em;
 }
 
-.profileTxt h2 span /* cheff*/
+.profileTxt h2 span
+/* cheff*/
+
 {
     font-size: 0.8em;
     font-weight: 300;
 }
 
+
 /****************************************************************/
 
-.infoContacto 
-{
+.infoContacto {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
     font-weight: 100;
-
 }
 
-.texto 
-{
+.texto {
     color: rgb(255, 255, 255);
     text-align: justify;
     font-size: 18px;
-    
 }
 
-.infoContacto ul 
-{
+.infoContacto ul {
     position: relative;
     margin-left: 2px;
 }
 
-.infoContacto ul li 
-{
+.infoContacto ul li {
     position: relative;
     list-style: none;
     margin: 10px;
     cursor: pointer;
 }
 
-.infoContacto h4
-{
+.infoContacto h4 {
     font-size: 1.2em;
     font-weight: 100;
 }
 
-.infoContacto ul li .icono 
-{
+.infoContacto ul li .icono {
     display: inline-block;
     width: 30px;
     font-size: 25px;
     color: #307bb1;
-}
-/****************************************************************/
-
-ul 
-{
+    margin-left: 0;
     padding-left: 0;
 }
 
+
 /****************************************************************/
 
-.infoContacto.Educacion ul li span 
-{
+ul {
+    padding-left: 0;
+}
+
+
+/****************************************************************/
+
+.infoContacto.Educacion ul li span {
     color: #fff;
     font-weight: 300;
 }
+
+
 /****************************************************************/
 
-.infoContacto.Educacion li 
-{
+.infoContacto.Educacion li {
     margin-bottom: 15px;
 }
 
-.infoContacto.Educacion h5 
-{
+.infoContacto.Educacion h5 {
     color: #307bb1;
     font-weight: 500;
 }
 
-.infoContacto.Educacion h4:nth-child(2) 
-{
+.infoContacto.Educacion h4:nth-child(2) {
     color: #ffffff;
     font-weight: 500;
 }
 
-.infoContacto.Educacion h4 
-{
+.infoContacto.Educacion h4 {
     font-weight: 100;
 }
 
-.infoContacto.Educacion h3 
-{
+.infoContacto.Educacion h3 {
     color: #ffffff;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
 /****************************************************************/
 
-.infoContacto.idiomas .porcentaje 
-{
+.infoContacto.idiomas .porcentaje {
     position: relative;
     width: 100%;
     height: 6px;
@@ -215,76 +204,68 @@ ul
     margin-top: 5px;
 }
 
-.infoContacto.idiomas .porcentaje div 
-{
+.infoContacto.idiomas .porcentaje div {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     background: #03a9f4;
 }
+
+
 /****************************************************************/
-.container .rightside 
-{
+
+.container .rightside {
     position: relative;
     background: #fff;
     padding: 40px;
 }
 
-.acerca 
-{
+.acerca {
     margin-bottom: 50px;
 }
 
-.acerca:last-child 
-{
+.acerca:last-child {
     margin-bottom: 0;
 }
 
-.title2 
-{
+.title2 {
     color: #083147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 40px;
 }
 
-p 
-{
+p {
     color: #333;
     font-size: 16px;
 }
 
-.acerca .box 
-{
+.acerca .box {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
 }
 
-.acerca .box .tiempo_empresa 
-{
+.acerca .box .tiempo_empresa {
     min-width: 9em;
     margin: 2.5em 0;
 }
 
-.acerca .box .tiempo_empresa h5 
-{
+.acerca .box .tiempo_empresa h5 {
     text-transform: uppercase;
     color: grey;
     font-weight: 400;
     font-size: 1.05em;
 }
 
-.acerca .box .texto h4 
-{
+.acerca .box .texto h4 {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 26px;
 }
 
-.Habilidades .box 
-{
+.Habilidades .box {
     position: relative;
     width: 100%;
     display: grid;
@@ -293,24 +274,21 @@ p
     align-items: center;
 }
 
-.Habilidades .box h4 
-{
+.Habilidades .box h4 {
     text-transform: uppercase;
     color: grey;
     font-size: 1.05em;
     font-weight: 500;
 }
 
-.Habilidades .box .porcentaje 
-{
+.Habilidades .box .porcentaje {
     position: relative;
     width: 100%;
     height: 10px;
     background: #f0f0f0;
 }
 
-.Habilidades .box .porcentaje div 
-{
+.Habilidades .box .porcentaje div {
     position: absolute;
     top: 0;
     left: 0;
@@ -318,28 +296,24 @@ p
     background: #03a9f4;
 }
 
-.Intereses ul
-{
+.Intereses ul {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.Intereses ul li 
-{
+.Intereses ul li {
     list-style: none;
     color: #333;
     font-weight: 500;
     margin: 10px 0;
 }
 
-.Intereses ul li .fa
-{   
+.Intereses ul li .fa {
     color: #03a9f4;
     font-size: 18px;
 }
 
-button
-{
+button {
     font-size: 25px;
     padding: 10px 20px;
     margin: 50px 0 50px 140px;
@@ -352,17 +326,28 @@ button
     cursor: pointer;
     transition: .5s;
 }
-button:hover
-{
+
+button:hover {
     background-color: #053949;
     box-shadow: 0 0 30px #053949;
 }
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #053949;
+    color: #f0f0f0;
+    bottom: 0;
+}
+
 
 /*.footerx {
     font-size: 100px;
 }
 
 /***************************************************/
+
+
 /*
 @media print{
     body * {
@@ -373,44 +358,31 @@ button:hover
     }
 }/*/
 
-@media (max-width: 1000px)
-{
-    .container
-    {
+@media (max-width: 1000px) {
+    .container {
         margin: 10px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    
-    .Intereses ul
-    {
-        grid-template-columns: repeat(2,1fr);
+    .Intereses ul {
+        grid-template-columns: repeat(2, 1fr);
     }
-
-    .infoContacto 
-    {
-        text-align: center;        
+    .infoContacto {
+        text-align: center;
     }
 }
 
-@media (max-width: 600px)
-{
-    .acerca .box
-    {
+@media (max-width: 600px) {
+    .acerca .box {
         flex-direction: column;
     }
-    .acerca .box .tiempo_empresa
-    {
+    .acerca .box .tiempo_empresa {
         min-width: 150px;
         margin-bottom: 5px;
     }
-    .Intereses ul
-    {
-        grid-template-columns: repeat(1,1fr);
+    .Intereses ul {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .Habilidades .box
-    {
-        grid-template-columns: repeat(1,1fr);
+    .Habilidades .box {
+        grid-template-columns: repeat(1, 1fr);
     }
-
 }
-
