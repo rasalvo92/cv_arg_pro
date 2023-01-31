@@ -24,3 +24,7 @@ footer {
     max-height: 600px;
     grid-template-columns: ;
 }
+
+.navbar{
+    font-size: 1em;
+}

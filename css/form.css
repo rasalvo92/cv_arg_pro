@@ -9,6 +9,10 @@ body {
     align-items: center;
 }
 
+.navbar {
+    font-size: 1em;
+}
+
 .mb-7 {
     color: #083147;
     font-size: 0.805em;
@@ -29,7 +33,7 @@ body {
     display: grid;
     margin: auto;  
     grid-template-columns: repeat(1, 1fr);
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
