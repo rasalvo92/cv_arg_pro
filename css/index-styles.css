@@ -36,11 +36,8 @@ body {
 /*.container-fluid
 {    
 }*/
-.navbar {
-    padding: 0;
-}
 
-/****************************************************************/
+/************************************************************/
 
 .container {
     font-family: 'Poppins', sans-serif;
@@ -51,6 +48,7 @@ body {
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
+
 
 .container .leftside {
     background: #053949;
@@ -308,50 +306,11 @@ p {
     font-size: 18px;
 }
 
-button {
-    font-size: 25px;
-    padding: 10px 20px;
-    margin: 50px 0 50px 140px;
-    background-color: #1883b4;
-    border: none;
-    outline: none;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: .5s;
-}
-
-button:hover {
-    background-color: #10bcf0;
-    box-shadow: 0 0 30px #225b6d5b;
-}
-
 footer {
     color: #083147;
     text-align: right;
 }
 /***************************************************/
-
-.print-area {
-    width: 100%;
-    margin: 20px auto;
-}
-
-.print-area .header {
-    width: 100%;
-    height: 150px;
-}
-
-
-@media print{
-    body * {
-        visibility: hidden;
-    }
-    print-area * {
-        visibility: visible;
-    }
-}
 
 @media (max-width: 1000px) {
     .container {
