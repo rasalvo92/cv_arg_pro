@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-
+    
 }
 
 body {
@@ -25,4 +25,10 @@ footer {
 .container-fluid {
     display: grid;
     margin: auto;    
+}
+
+@media (max-width: 600px) {
+    .container-fluid {
+        grid-template-columns: repeat(1, 1fr);
+}
 }
