@@ -7,34 +7,37 @@
 body {
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    min-height: 100%;
 }
 
-footer {
+.mb-7 {
     color: #083147;
+    font-size: 0.805em;
     text-align: right;
 }
 
+
 .mb-3 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1em;
 }
 
-.container-fluid {
+.container{
+    
+}
+
+.container-fluid {   /**header*//
     display: grid;
     margin: auto;  
     grid-template-columns: repeat(1, 1fr);
+    font-size: 1.2em;
 }
 
-.container .formulario {
-    min-width: 100px;
+
+@media screen and (max-width: 768px) {
+    .col-4 {
+
+    }
 }
 
-@media (max-width: 600px) {
-    .formulario .container {
-        flex-direction: column;
-        grid-template-columns: (1, 1fr);
-        min-width: 50%;
-}
+@media screen and (max-width: 480px) {
 }
