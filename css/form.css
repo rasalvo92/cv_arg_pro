@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 
 body {
-    background: #ebcece41;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     min-height: 100%;
 }
 
@@ -19,23 +18,23 @@ footer {
 
 .mb-3 {
     color: white;
-    font-size: 1.25em;
+    font-size: 1em;
 }
-
-
-.redemption {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 
 .container-fluid {
     display: grid;
-    margin: auto;    
+    margin: auto;  
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.container .formulario {
+    min-width: 100px;
 }
 
 @media (max-width: 600px) {
-    .container-fluid {
-        grid-template-columns: repeat(1, 1fr);
+    .formulario .container {
+        flex-direction: column;
+        grid-template-columns: (1, 1fr);
+        min-width: 50%;
 }
 }
