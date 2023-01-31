@@ -80,7 +80,7 @@ body {
 .profileTxt h2 /*DAniel Seemann*/
 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -90,23 +90,22 @@ body {
 
 .profileTxt h2 span /* cheff*/
 {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 300;
 }
-
 
 /****************************************************************/
 
 .infoContacto {
     margin: 12px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .texto {
     color: #fff;
     text-align: justify;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 100;
 }
 
