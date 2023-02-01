@@ -97,7 +97,7 @@ body {
 /****************************************************************/
 
 .infoContacto {
-    margin: 12px;
+    margin-top: 45px;
     color: #ffffff;
     font-size: 15px;
 }
@@ -111,13 +111,12 @@ body {
 
 .infoContacto ul {
     position: relative;
-    margin-left: 20px;
 }
 
 .infoContacto ul li {
     position: relative;
     list-style: none;
-    margin: 15px;
+    margin: 25px;
     cursor: pointer;
 }
 
@@ -131,8 +130,9 @@ body {
     width: 30px;
     font-size: 25px;
     color: #307bb1;
-    margin-left: 0;
-    padding-left: 0;
+    margin-left: auto;
+    padding-left: auto;
+    
 }
 
 ul {
@@ -149,11 +149,11 @@ ul {
 /****************************************************************/
 
 .infoContacto.Educacion li {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .infoContacto.Educacion h5 {
-    color: #307bb1;
+    color: #ffffff;
     font-weight: 500;
 }
 
@@ -165,12 +165,11 @@ ul {
 .infoContacto.Educacion h4 {
     font-weight: 400;
     color: #2a7da2;
-
 }
 
 .infoContacto.Educacion h3 {
     color: #ffffff;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -178,7 +177,6 @@ ul {
     position: relative;
     width: 100%;
     height: 6px;
-    background: #081921;
     display: block;
     margin-top: 5px;
 }
@@ -195,11 +193,11 @@ ul {
 .container .rightside {
     position: relative;
     background: #fff;
-    padding: 40px;
+    padding: 20px;    
 }
 
 .acerca {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .acerca:last-child (2) {
@@ -222,18 +220,18 @@ p {
 .acerca .box {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .acerca .box .tiempo_empresa {
-    min-width: 9em;
-    margin: 2.5em 0;
+    min-width: 10em;
+    margin: 5em 0;
 }
 
 .acerca .box .tiempo_empresa h5 {
     text-transform: uppercase;
     color: grey;
-    font-weight: 400;
+    font-weight: 350;
     font-size: 1.05em;
 }
 
@@ -291,20 +289,21 @@ p {
     font-size: 18px;
 }
 
-.btn {
+.leftside .bob {
     background-color: #03a9f4;
     border: none;
     color: white;
-    padding: 12px 30px;
+    padding: 12px 10px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 80px;
     text-align: center;
-    overflow-x: auto;
-    white-space: nowrap;
-    margin: 50px 25px;
+    border-radius: 5px;
+    
 }
 
-.btn:hover {
+.bob:hover {
     background-color: #5ea8f1;
     color: #ffffff;
 }
@@ -334,7 +333,7 @@ footer {
     }
     .acerca .box .tiempo_empresa {
         min-width: 150px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
     .Intereses ul {
         grid-template-columns: repeat(1, 1fr);
