@@ -135,15 +135,10 @@ body {
     padding-left: 0;
 }
 
-
-/****************************************************************/
-
 ul {
     padding-left: 0;
 }
 
-
-/****************************************************************/
 /*
 .infoContacto .Educacion ul li {
     color: rgb(19, 11, 11);
@@ -179,9 +174,6 @@ ul {
     padding-bottom: 20px;
 }
 
-
-/****************************************************************/
-
 .infoContacto.idiomas .porcentaje {
     position: relative;
     width: 100%;
@@ -199,9 +191,7 @@ ul {
     background: #03a9f4;
 }
 
-
 /****************************************************************/
-
 .container .rightside {
     position: relative;
     background: #fff;
@@ -212,7 +202,7 @@ ul {
     margin-bottom: 50px;
 }
 
-.acerca:last-child {
+.acerca:last-child (2) {
     margin-bottom: 0;
 }
 
@@ -299,6 +289,24 @@ p {
 .Intereses ul li .fa {
     color: #03a9f4;
     font-size: 18px;
+}
+
+.btn {
+    background-color: #03a9f4;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 50px 25px;
+}
+
+.btn:hover {
+    background-color: #5ea8f1;
+    color: #ffffff;
 }
 
 footer {
