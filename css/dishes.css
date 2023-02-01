@@ -16,25 +16,40 @@ footer {
 
 h3 {
 	font-family: "poppins", Helvetica, sans-serif;
-	font-size: 2.2em;
+	font-size: 2em;
 	color: #ffffff;
 	text-align: center;
     opacity: 75%;
-    padding-top: 30px;
+    padding-top: 25px;
     font-style: italic;
-    margin: 30px;
+    margin: 50px;
 }
 
 .contenedor{
     background-color: #083147;
+    
 }
+
 .contenedor img {
-    padding: 50px;
-    max-width: 600px;
-    max-height: 600px;
-    box-shadow: 0px 5px 10px 0px #d4d6d6;
+    margin-top: 75px;
+    max-width: 500px;
+    box-shadow: 0px 5px 10px 0px #1da8f3;
+    cursor: pointer;
 }
 
 .navbar{
     font-size: 1em;
 }
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 2s 2.6s;
+  }
+  
+  /*
+  .carousel-fade .carousel-item {
+    */
