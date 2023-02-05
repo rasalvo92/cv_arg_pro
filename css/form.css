@@ -2,12 +2,15 @@
 
 *{
     box-sizing: border-box; 
-    padding: 0;  
+    padding: 0;
+    margin: 0;
 }
 
 body {
     justify-content: center;
     align-items: center;
+    background-color: #cee9eb;
+
 }
 
 .navbar {
@@ -31,6 +34,14 @@ body {
     margin: auto;  
     grid-template-columns: repeat(1, 1fr);
     font-size: 1em;
+}
+
+.formulario {
+    background-color: #083147;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    margin: auto;    
 }
 
 footer {
