@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
@@ -21,11 +22,11 @@ footer {
 
 h3 {
     font-family: 'Poppins', sans-serif;
-	font-size: 1.75em;
+	font-size: 1.8em;
 	color: #ffffff;
 	text-align: center;
     opacity: 75%;
-    padding-top: 55px;
+    padding-top: 50px;
     margin: 20px;
 }
 
@@ -38,13 +39,16 @@ h3 {
 }
 
 .contenedor img {
-    margin-top: 10%;
-    max-width: 500px;
+    margin: 100px 0;
+    max-width: 650px;
     box-shadow: 0px 5px 10px 0px #1da8f3;
     cursor: pointer;
     border-radius: 2%;
 }
 
+p {
+    font-size: 1.15em;
+}
 .navbar {
     font-size: 1em;
     font-weight: 600;
@@ -64,24 +68,22 @@ h3 {
 
 .infoDishes {
     color: white;
-    margin: 50px;
-    padding: 5px;
+    margin: 5px;
+    padding: 40px;
 }
 
-
-
-    @media (max-width: 400px) {
-        .contenedor {
+@media (max-width: 400px) {
+    .contenedor {
         flex-direction: column;
         min-width: 150px;
         grid-template-columns: repeat(1, 1fr);
         }
-    }
+}
 
-    @media (max-width: 1000px) {
-            .contenedor {
-            flex-direction: column;
-            min-width: 150px;
-            grid-template-columns: repeat(1, 1fr);
+@media (max-width: 1000px) {
+    .contenedor {
+        flex-direction: column;
+        min-width: 150px;
+        grid-template-columns: repeat(1, 1fr);
         }
     }
