@@ -46,9 +46,10 @@ h3 {
     border-radius: 2%;
 }
 
-.navbar{
+.navbar {
     font-size: 1em;
-
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .carousel-item {
@@ -57,7 +58,7 @@ h3 {
 
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
-    transition: opacity 1s 2.6s;
+    transition: opacity 0s 2.6s;
 }
 /*
 .carousel-fade .carousel-item {

@@ -10,11 +10,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #cee9eb;
-
 }
 
 .navbar {
     font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .mb-7 {
