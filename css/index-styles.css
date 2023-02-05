@@ -316,6 +316,7 @@ p {
 footer {
     color: #083147;
     text-align: right;
+    left: 0 ; right: 0; bottom: 0;
 }
 /***************************************************/
 
